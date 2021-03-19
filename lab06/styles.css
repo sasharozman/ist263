@@ -1,0 +1,9 @@
+body{
+    font-family: Garamond, serif;
+}
+h1, h2 {color:dodgerblue;}
+
+.evenrow{background-color:purple; color:dodgerblue}
+
+h1{font-size: 2.5em;}
+h2{font-size: 1.5em;}
