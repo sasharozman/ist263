@@ -21,14 +21,15 @@ h1{color:#3B8183;}
 .quote {float: right;}
 
 .part1 {background-color:lightgrey; border-radius: 1em;
-margin-bottom: 50px;}
+margin-bottom: 50px;
+padding: 50px;}
 
 .part2 {display: flex;
 background-color: lightgrey;
 border-radius: 1em;}
 
 .headings {float: left;
-margin: 30px;}
+margin-right: 30px;}
 
 
 .clear {clear: both;}
