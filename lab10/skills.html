@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+    <style>
+        #skip-to-content {
+        position: absolute; 
+        left: -999px; /* positions skip to content off screen */
+        background-color: white;
+        border: 1px solid gray;
+        }
+        #skip-to-content:focus {position: absolute; left: 10px;}
+        /* pseudo class that moves skip to content back on screen */
+        </style>
      <meta charset="utf-8">
      <meta name ="viewport" content="width=device-width, initial-scale=1.0">
      <title>Lab 04 Table</title>
@@ -10,6 +20,8 @@
      </style>
  </head> 
  <body>
+    <a id="skip-to-content" href="#content">Skip to Content</a>
+    <!-- this will link you down to the content a tag with id of skip-to content -->
     <nav> 
         <a href="index.html">Home </a> <span>|</span>
         <a href= "skills.html">  Skills </a> <span>|</span>
