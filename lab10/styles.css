@@ -4,11 +4,11 @@ p{
     font-size: 1.5em;
 }
 a:link{
-    color: #306953;
+    color: #050505;
     font-size: 1.5em;
 }
 body{
-    color:#2aa6be; 
+    color:#000000; 
     font-size: 1.5em; 
 }
 nav{
@@ -17,12 +17,12 @@ nav{
     margin-bottom: 30px;
     font-size: 1.5em;
 }
-nav a{ color: #15cca4;
+nav a{ color: #000000;
 font-size: 1.5em;}
 nav a:hover{background-color: #e0b467;
 font-size: 1.5em;}
 
-h1{color:#1f8185;
+h1{color:#000000;
 font-size: 1.5em;}
 
 .quote {float: right;
