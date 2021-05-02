@@ -4,7 +4,9 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 18px;}
 iframe {
-    padding-left: 30px;
+    margin-left: 30px;
+    position: relative;
+    margin-top: 20px;
 }
 h2{
     color: black;
@@ -18,30 +20,29 @@ h2{
         }
     }
     p{
-        padding: 30px;
+        padding: 15px;
+        margin-left: 20px;
+        margin-bottom: 30px;
     }
-    nav a:link{
+    nav a{
         color: #565c5e;
-        padding-left: 30px;}
+        padding-left: 30px;
+    text-decoration: none;}
     nav{
             font-size: 1.2em;
         }
-     nav a:visited{
-            background-color: #455954;
-         }
+   
      nav a:hover{
-             background-color: #0c2431;
+             background-color: #9bdfbd;
          }
     
-         nav a:active{
-             color: white;
-         }
+
          body{
             background-color: #e8e8e8;
         }
       #imagetwo{
           float: right;
-          padding-right: 30px; 
+          margin-right: 470px; 
         }
         #imageone{
             padding-left: 30px;
