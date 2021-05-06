@@ -73,9 +73,11 @@ font-family: 'Goblin One', cursive;}
         font-size: 1.5em;
     }
     nav a{ display:block;
-    max-width: 100%;}
+    max-width: 100%;
+    font-family: 'Goblin One', cursive;}
     span {display: none;
-    font-size: 1.5em;}
+    font-size: 1.5em;
+    font-family: 'Goblin One', cursive;}
 }
 
 
