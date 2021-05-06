@@ -2,57 +2,71 @@ p{
     background-color: #bb9b3a;
     color: #413E4A;
     font-size: 1.5em;
+    font-family: 'Rubik', sans-serif;
 }
 a:link{
     color: #050505;
     font-size: 1.5em;
+    font-family: 'Rubik', sans-serif;
 }
 body{
     color:#000000; 
     font-size: 1.5em; 
+    font-family: 'Rubik', sans-serif;
 }
 nav{
     background-color: #a4b185 ;
     padding: 10px;
     margin-bottom: 30px;
     font-size: 1.5em;
+    font-family: 'Rubik', sans-serif;
 }
 nav a{ color: #000000;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 nav a:hover{background-color: #e0b467;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 
 h1{color:#000000;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 
 .quote {float: right;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 
 .part1 {background-color:lightgrey; border-radius: 1em;
 margin-bottom: 50px;
 padding: 50px;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 
 .part2 {display: flex;
 background-color: lightgrey;
 border-radius: 1em;
 flex-wrap: wrap;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 
 .headings {float: left;
 margin-right: 30px;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 
 
 .clear {clear: both;}
 
 .survey {flex: 1;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 .iframe {flex: 1;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 
 .myslogan{max-width: 100%;
-font-size: 1.5em;}
+font-size: 1.5em;
+font-family: 'Rubik', sans-serif;}
 
 @media only screen and (max-width: 920px) {
     body {
