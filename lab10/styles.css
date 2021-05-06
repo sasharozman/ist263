@@ -2,71 +2,70 @@ p{
     background-color: #bb9b3a;
     color: #413E4A;
     font-size: 1.5em;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Goblin One', cursive;
 }
 a:link{
     color: #050505;
     font-size: 1.5em;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Goblin One', cursive;
 }
 body{
     color:#000000; 
     font-size: 1.5em; 
-    font-family: 'Rubik', sans-serif;
-}
+    font-family: 'Goblin One', cursive;}
 nav{
     background-color: #a4b185 ;
     padding: 10px;
     margin-bottom: 30px;
     font-size: 1.5em;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Goblin One', cursive;
 }
 nav a{ color: #000000;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 nav a:hover{background-color: #e0b467;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 
 h1{color:#000000;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 
 .quote {float: right;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 
 .part1 {background-color:lightgrey; border-radius: 1em;
 margin-bottom: 50px;
 padding: 50px;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 
 .part2 {display: flex;
 background-color: lightgrey;
 border-radius: 1em;
 flex-wrap: wrap;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 
 .headings {float: left;
 margin-right: 30px;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 
 
 .clear {clear: both;}
 
 .survey {flex: 1;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 .iframe {flex: 1;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 
 .myslogan{max-width: 100%;
 font-size: 1.5em;
-font-family: 'Rubik', sans-serif;}
+font-family: 'Goblin One', cursive;}
 
 @media only screen and (max-width: 920px) {
     body {
