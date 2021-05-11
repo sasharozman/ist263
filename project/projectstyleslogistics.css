@@ -5,6 +5,7 @@ h1{
     padding-left: 18px;}
     img{
         padding-left: 30px;
+        max-width: 100%;
         }
     h2{
             color: black;

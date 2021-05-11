@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #skip-to-content {
+        position: absolute; 
+        left: -999px; 
+        background-color: white;
+        border: 1px solid gray;
+        }
+        #skip-to-content:focus {position: absolute; left: 10px;}
+        </style>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tiny House Project IST263 Sasha Rozman</title>
+<script>
+    function HomeClick () {
+        alert("Hello Tiny House Fanatic!");
+    }
+</script>
 <link rel="stylesheet" href="projectstyles.css">
 </head>
 <body>
+<a id="skip-to-content" href="#content">Skip to Content</a>
 <header>
 <h1>Tiny Homes</h1>    
 </header>
 
-<nav>
-    <a href="index.html">Home</a> <br>
+<nav> 
+    <a href="index.html" onclick="HomeClick();">Home</a> <br>
     <a href="whatis.html">What is a Tiny House?</a> <br>
     <a href="movement.html">Tiny House Movement</a> <br>
     <a href="logistics.html">Tiny House Logistics</a>
 </nav>
-
+<a id="content"></a>
 <section> 
 <h2>Tiny House Background Information Guide</h2> 
  <div class ="box1">
