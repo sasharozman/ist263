@@ -18,7 +18,6 @@ p{
     font-size: large;
 }
 .box1, .box2, .box3{
-  width: 33.33%;
  content: "";
  clear: both;
  display: table;
