@@ -29,7 +29,6 @@ align-self: center;
 }
 .col2, .col4, .col6{
  order: 1;
- flex: 33.33%;
 }
 
 
