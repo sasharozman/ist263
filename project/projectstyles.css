@@ -20,6 +20,7 @@ p{
 .box1, .box2, .box3{
     display: flex;
     justify-content: flex-start;
+    align-self: center;
 }
 
 .col1, .col3, .col5{
