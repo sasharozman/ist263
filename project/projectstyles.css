@@ -18,17 +18,20 @@ p{
     font-size: large;
 }
 .box1, .box2, .box3{
-  display: flex;
-  justify-content: flex-start;
-  align-self: center;
+  width: 33.33%;
+ content: "";
+ clear: both;
+ display: table;
 }
 
 .col1, .col3, .col5{
-   order: 2;
    margin: auto;
+   text-align: left;
 }
 .col2, .col4, .col6{
-    order:1;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
 }
 
 
