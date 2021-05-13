@@ -18,19 +18,18 @@ p{
     font-size: large;
 }
 .box1, .box2, .box3{
- content: "";
- clear: both;
- display: table;
+display: flex;
+justify-content: flex-start;
+align-self: center;
 }
 
 .col1, .col3, .col5{
    margin: auto;
-   text-align: left;
+  order: 2;
 }
 .col2, .col4, .col6{
-  float: left;
-  width: 33.33%;
-  padding: 10px;
+ order: 1;
+ flex: 33.33%;
 }
 
 
