@@ -15,7 +15,7 @@ p{
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 100px;
-    font-size: large;
+    font-size: medium;
 }
 .main{
     display: flex;
@@ -38,6 +38,7 @@ h2{
     color: black;
     font-family: fantasy;
     padding-left: 30px;
+    font-size: larger;
 }
 h1{
     color: #194a50;
@@ -60,4 +61,8 @@ img{
     .main {
         flex-direction: column;
     }
+}
+
+#onesubtitle{
+    margin-left: 30px;
 }
