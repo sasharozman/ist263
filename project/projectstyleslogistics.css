@@ -11,7 +11,7 @@ h1{
             color: black;
             font-family: fantasy;
             padding-left: 30px;}
- @media only screen and (max-width: 920px) {
+ @media only screen and (max-width: 600px) {
                 body {
                     background-color: #e8e8e8;
                     font-size: 1.5em;
@@ -19,6 +19,8 @@ h1{
             }
   p{
     padding: 30px;
+    margin-right: 200px;
+    font-size: medium;
 }
 nav a{
     color: #565c5e;
@@ -37,9 +39,9 @@ nav{
         background-color: #e8e8e8;
      }
      h3{
-        color: black;
+        color: #0b3a41;
         font-family: fantasy;
         padding-left: 30px;
-        font-weight: bold;
+        font-weight: bolder;
     }
     

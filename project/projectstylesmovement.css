@@ -2,6 +2,7 @@ p{
     padding: 30px;
     font-size: medium;
     margin-right: 200px;
+    margin-top: auto;
 }
 nav a{
     color: #565c5e;
@@ -41,12 +42,14 @@ nav{
         h3{ color: #0b3a41;
             font-family: fantasy;
             padding-left: 30px;
-            font-weight: 3000px;
-        margin-bottom: 30px;}
+            font-weight: 5000px;
+        margin-bottom: 30px;
+    font-size:23px;}
         h4{ color: black;
                 font-family: fantasy;
                 padding-left: 30px;
-                font-weight: bolder;}
+                font-weight: bolder;
+            font-size: large;}
 
      img{
          padding-left: 30px;
