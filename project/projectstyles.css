@@ -14,15 +14,18 @@ nav a:hover{
 p{
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 100px;
     font-size: medium;
+    margin-right: 100px;
+    margin-left: 30px;
 }
 .main{
     display: flex;
+    align-items: center;
 }
 .b1, .b2, .b3 { 
     flex: 1;
     flex-wrap: wrap;
+   align-items: center;
 }
 
 .col1, .col3, .col5{
@@ -31,14 +34,16 @@ p{
 }
 .col2, .col4, .col6{
  order: 1;
+ align-items: flex-start;
 }
 
 
 h2{
     color: black;
     font-family: fantasy;
-    padding-left: 30px;
     font-size: larger;
+   margin-top: 40px;
+   margin-left: 20px;
 }
 h1{
     color: #194a50;
@@ -50,8 +55,8 @@ nav{
     font-size: 1.2em;
 }
 img{
-    margin-left: 30px;
     max-width: 100%;
+    margin-left: 30px;
 }
 @media only screen and (max-width: 600px) {
     body {
@@ -60,6 +65,8 @@ img{
     }
     .main {
         flex-direction: column;
+        align-items: center;
     }
 }
+
 
