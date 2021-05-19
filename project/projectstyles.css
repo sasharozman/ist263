@@ -17,6 +17,8 @@ p{
     font-size: medium;
     margin-right: 100px;
     margin-left: 30px;
+    min-height: 50px;
+    align-items: center;
 }
 .main{
     display: flex;
@@ -26,15 +28,19 @@ p{
     flex: 1;
     flex-wrap: wrap;
    align-items: center;
+   min-height: fit-content;
 }
 
 .col1, .col3, .col5{
    margin: auto;
   order: 2;
+  min-height: fit-content;
+  align-items: center;
 }
 .col2, .col4, .col6{
  order: 1;
- align-items: flex-start;
+ align-items: center;
+ min-height: fit-content;
 }
 
 
@@ -44,6 +50,8 @@ h2{
     font-size: larger;
    margin-top: 40px;
    margin-left: 20px;
+   min-height: fit-content;
+   align-items: center;
 }
 h1{
     color: #194a50;
@@ -57,6 +65,8 @@ nav{
 img{
     max-width: 100%;
     margin-left: 30px;
+    min-height: fit-content;
+    align-items: center;
 }
 @media only screen and (max-width: 600px) {
     body {
